@@ -1,0 +1,16 @@
+Author
+------
+Adam Hammouda
+
+Description
+-----------
+Generic django 1.7 project to bootstrap any new heroku site.
+
+Setup
+-----
+$ git init 
+$ git add . -A
+$ git commit -m "First Commit"
+$ git push heroku master
+$ heroku help config:set ENV='PROD'
+$ heroku run python manage.py migrate
